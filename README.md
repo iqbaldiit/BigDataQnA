@@ -1,9 +1,7 @@
 # BigDataQnA
 ## Spark Question and Answer
 1. Difference between RDD & Dataframes
-**Answer:**
 ![image](https://github.com/user-attachments/assets/daac4c82-d704-4470-aa23-8aab2e2fed3d)
-
 2. What are the challenges you face in spark?
 3. What is difference between reduceByKey & groupByKey?
 4. What is the difference between Persist and Cache?
