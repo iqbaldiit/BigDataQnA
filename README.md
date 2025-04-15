@@ -1,6 +1,9 @@
 # BigDataQnA
 ## Spark Question and Answer
 1. Difference between RDD & Dataframes
+--> RDD: Resilient Distributed Dataset, Raw power, full control, but slower 
+--> Dataframe: Optimized easy and SQL friendly
+--> Dataset: Strongly typed, safer, but JVM-only!
 ![image](https://github.com/user-attachments/assets/daac4c82-d704-4470-aa23-8aab2e2fed3d)
 2. What are the challenges you face in spark?
 3. What is difference between reduceByKey & groupByKey?
