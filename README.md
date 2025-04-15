@@ -1,20 +1,24 @@
 # BigDataQnA
 ## Spark Question and Answer
 1. Difference between RDD & Dataframes
+
 => RDD → Raw power, full control, but slower!
 => DataFrame → Optimized, easy, SQL-friendly!
 =>Dataset → Strongly typed, safer, but JVM-only!
 ![image](https://github.com/user-attachments/assets/ad08a5a1-7c99-4ae3-ba1d-a8ab6bfd6519)
 
 2. What are the challenges you face in spark?
-    Data Skew → Uneven data distribution causes slow tasks and performance bottlenecks.--
-    Memory Management → OutOfMemory errors if not tuned properly (executors, caching, shuffle).--
-    Shuffle Overhead → Expensive operations like joins, groupBy lead to excessive disk and network I/O.--
-    Small Files Problem → Too many small files increase job planning and file listing overhead.--
-    Job Debugging → Complex DAG and multiple stages make debugging non-trivial.--
-    Serialization Issues → Inefficient or incompatible serialization can degrade performance.--
-    Schema Evolution → Changes in schema may lead to runtime errors in Parquet or Delta files.--
-    Slow UDFs → Spark UDFs (especially Python) are slower and not optimized by Catalyst.--
+
+    Data Skew → Uneven data distribution causes slow tasks and performance bottlenecks.
+    Memory Management → OutOfMemory errors if not tuned properly (executors, caching, shuffle).
+    Shuffle Overhead → Expensive operations like joins, groupBy lead to excessive disk and network I/O.
+
+    Small Files Problem → Too many small files increase job planning and file listing overhead.
+    Job Debugging → Complex DAG and multiple stages make debugging non-trivial.
+    Serialization Issues → Inefficient or incompatible serialization can degrade performance.
+    Schema Evolution → Changes in schema may lead to runtime errors in Parquet or Delta files.
+    Slow UDFs → Spark UDFs (especially Python) are slower and not optimized by Catalyst.
+
 3. What is difference between reduceByKey & groupByKey?
 
     Both reduceByKey and groupByKey are used for aggregating key-value pair RDDs in Spark. However, reduceByKey is more efficient than groupByKey because it reduces data before shuffling.
@@ -25,6 +29,7 @@
 
 5. What is the Advantage of a Parquet File?
 ![alt text](image.png)
+
 Fast Reads + Small Size + Schema-aware + Analytics-friendly
 6. What is a Broadcast Join ?
 7. What is Difference between Coalesce and Repartition?
