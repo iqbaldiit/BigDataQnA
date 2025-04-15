@@ -18,7 +18,7 @@
     Serialization Issues → Inefficient or incompatible serialization can degrade performance.
     Schema Evolution → Changes in schema may lead to runtime errors in Parquet or Delta files.
     Slow UDFs → Spark UDFs (especially Python) are slower and not optimized by Catalyst.
-
+    
 3. What is difference between reduceByKey & groupByKey?
 
     Both reduceByKey and groupByKey are used for aggregating key-value pair RDDs in Spark. However, reduceByKey is more efficient than groupByKey because it reduces data before shuffling.
@@ -29,7 +29,6 @@
 
 5. What is the Advantage of a Parquet File?
 ![alt text](image.png)
-
 Fast Reads + Small Size + Schema-aware + Analytics-friendly
 6. What is a Broadcast Join ?
 7. What is Difference between Coalesce and Repartition?
