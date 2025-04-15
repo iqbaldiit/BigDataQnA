@@ -16,8 +16,16 @@
     Schema Evolution → Changes in schema may lead to runtime errors in Parquet or Delta files.--
     Slow UDFs → Spark UDFs (especially Python) are slower and not optimized by Catalyst.--
 3. What is difference between reduceByKey & groupByKey?
+
+    Both reduceByKey and groupByKey are used for aggregating key-value pair RDDs in Spark. However, reduceByKey is more efficient than groupByKey because it reduces data before shuffling.
+
 4. What is the difference between Persist and Cache?
+   
+   Cache is in-memory storage and persist might be in-memory or disk only or memory and disk only.
+
 5. What is the Advantage of a Parquet File?
+![alt text](image.png)
+Fast Reads + Small Size + Schema-aware + Analytics-friendly
 6. What is a Broadcast Join ?
 7. What is Difference between Coalesce and Repartition?
 8. What are the roles and responsibility of driver in spark Architecture?
