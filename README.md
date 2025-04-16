@@ -31,10 +31,28 @@
 ![alt text](image.png)
 Fast Reads + Small Size + Schema-aware + Analytics-friendly
 6. What is a Broadcast Join ?
+
+A Broadcast Join is a performance-optimized join in Spark where a small DataFrame is sent (broadcasted) to all worker nodes, avoiding expensive shuffles.
+
 7. What is Difference between Coalesce and Repartition?
+
+Both helps to change the partition size. **Coalesce** helps to decrease the partition size within the node without shuffling the data. **Repartition** helps to do both increase and decrease partition size but it shuffles the data between nodes to maintain equal partition size.
+ 
 8. What are the roles and responsibility of driver in spark Architecture?
+
+The Driver is the master process in Spark architecture that coordinates the entire application execution. Key responsibilities are Job submission, DAG creation, Task scheduling, Cluster Communication, Broadcasting variables, Tracking Execution, Collecting result.
+
+In short, The Driver is the brain of a Spark application. It builds the execution plan, talks to the cluster manager, and coordinates with executors to run tasks.
+
 9. What is meant by Data Skewness? How is it deal? 
+
+If one executor get the lot of load in a work node after the shuffling, it is called data skewness. It can be solved by spark salting.
+![image](https://github.com/user-attachments/assets/4fa39736-a653-47b2-b79a-619a8921b9fc)
+
 10. What are the optimisation techniques used in Spark?
+
+Predicate Pushdown, Column Pruning, Broadcast Join, Partitioning & Bucketing, Caching & Persistence, Coalesce vs. Repartition, Use Efficient File Formats, Avoid Wide Transformations, Memory Tuning, Avoid Collect() on Large Datasets, Skewed Join Handling, Use DataFrame API Instead of RDD
+
 11. What is Difference Between Map and FlatMap?
 12. What are accumulator and BroadCast Variables?
 13. What is a OOM Issue, how to deal it?
