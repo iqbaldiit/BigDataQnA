@@ -28,8 +28,8 @@
    Cache is in-memory storage and persist might be in-memory or disk only or memory and disk only.
 
 5. What is the Advantage of a Parquet File?
-    ![alt text](image.png)
-    
+
+    ![alt text](image.png)    
     Fast Reads + Small Size + Schema-aware + Analytics-friendly
 
 6. What is a Broadcast Join ?
